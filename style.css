@@ -1,0 +1,192 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #cfc5be;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    background: #eee2dad8 33%;
+    backdrop-filter: blur(4px);
+    border-radius: 1rem;
+    width: 100%;
+    margin: 5px auto;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    box-shadow: 1px 1px 5px rgba(121, 79, 79, 0.247);
+}
+
+aside {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    position: fixed;
+    top: 1%;
+    right: 1%;
+    z-index: 99999;
+    align-items: center;
+}
+
+.fa-square-whatsapp {
+    font-size: 45px;
+    color: rgba(65, 143, 62, 0.671);
+
+}
+
+
+.card {
+    margin: 10px;
+    width: 18rem;
+    height: 25rem !important;
+    overflow: hidden;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.699)  ;
+    background-color: #a7988c;
+    justify-items: center;
+    justify-content: center;
+}
+
+.card:hover {
+    transform: traslate(Y) 1px;
+}
+
+.card-footer {
+    position:absolute;
+    bottom: 0%;
+    left:20%;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+
+.eliminar_foto {
+    position: relative;
+    margin-bottom: 10px !important;
+}
+
+.container-fluid {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    font-family: "Montserrat", sans-serif;
+    padding: 1rem;
+    animation: llegar-3 8s ease 1;
+}
+
+.formulario_cuerpo {
+    width: 95%;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+
+.form-control {
+    font-family: "Montserrat", sans-serif;
+    margin: 5px auto;
+    background: #94BBE9;
+    background: radial-gradient(circle, #d3c4b9 0%,  #eee2da 33%,  #d1b39e 100%);
+    text-decoration: none;
+}
+
+.form-label {
+    font-family: "Montserrat", sans-serif;
+    text-indent: 1rem;
+}
+
+/*     <<<<<<<<<<<<<<<<<<<<<<<<<<<<  FOOTER   >>>>>>>>>>>>>>>>>>>>>><*/
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #eee2dad8 33%;
+    backdrop-filter: blur(4px);
+    border-radius: 1rem;
+    margin: 2rem auto;
+    width: 95%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    box-shadow: 1px 1px 5px rgba(121, 79, 79, 0.247);
+
+    }
+
+.fila_en_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 50px;
+    margin-top: -10px;
+}
+
+.marca {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing:auto;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.atelier {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.net-item {
+    margin: 15px;
+    color: rgb(0, 0, 0);
+    opacity: 50%;
+}
+
+.net-item:hover {
+    opacity: 100%;
+}
+
+i:hover {
+    transform: scale(1.2);
+    transition: transform 1.3s ease;
+    text-shadow: 2px 2px 2px white;
+}
+
+
+/*<<<<<<<<<<<<<<<<<<< ANIMACIONES >>>>>>>>>>>>>>>>>>>>>>><*/
+
+@keyframes llegar-3 {
+    from {
+    opacity: 0;
+    }
+  to {
+    opacity: 1;
+    }
+}
